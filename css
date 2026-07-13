@@ -1,0 +1,43 @@
+/* Change background */
+body {
+  background: #0f172a;
+}
+
+/* Change text color */
+h1 {
+  color: white;
+}
+
+/* Center everything */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Rounded corners */
+.card {
+  border-radius: 15px;
+}
+
+/* Add spacing */
+.card {
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Shadow */
+.card {
+  box-shadow: 0 10px 25px rgba(0,0,0,.3);
+}
+
+/* Hover effect */
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Smooth animation */
+button {
+  transition: 0.3s;
+}
